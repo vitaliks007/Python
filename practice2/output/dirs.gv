@@ -1,228 +1,256 @@
 // Dirs
 digraph {
-	"../../Python4Sem" [label=Python4Sem]
-	"../../Python4Sem/.git" [label=".git"]
-	"../../Python4Sem" -> "../../Python4Sem/.git"
-	"../../Python4Sem/.git/config" [label=config]
-	"../../Python4Sem/.git" -> "../../Python4Sem/.git/config"
-	"../../Python4Sem/.git/description" [label=description]
-	"../../Python4Sem/.git" -> "../../Python4Sem/.git/description"
-	"../../Python4Sem/.git/HEAD" [label=HEAD]
-	"../../Python4Sem/.git" -> "../../Python4Sem/.git/HEAD"
-	"../../Python4Sem/.git/hooks" [label=hooks]
-	"../../Python4Sem/.git" -> "../../Python4Sem/.git/hooks"
-	"../../Python4Sem/.git/hooks/applypatch-msg.sample" [label="applypatch-msg.sample"]
-	"../../Python4Sem/.git/hooks" -> "../../Python4Sem/.git/hooks/applypatch-msg.sample"
-	"../../Python4Sem/.git/hooks/commit-msg.sample" [label="commit-msg.sample"]
-	"../../Python4Sem/.git/hooks" -> "../../Python4Sem/.git/hooks/commit-msg.sample"
-	"../../Python4Sem/.git/hooks/fsmonitor-watchman.sample" [label="fsmonitor-watchman.sample"]
-	"../../Python4Sem/.git/hooks" -> "../../Python4Sem/.git/hooks/fsmonitor-watchman.sample"
-	"../../Python4Sem/.git/hooks/post-update.sample" [label="post-update.sample"]
-	"../../Python4Sem/.git/hooks" -> "../../Python4Sem/.git/hooks/post-update.sample"
-	"../../Python4Sem/.git/hooks/pre-applypatch.sample" [label="pre-applypatch.sample"]
-	"../../Python4Sem/.git/hooks" -> "../../Python4Sem/.git/hooks/pre-applypatch.sample"
-	"../../Python4Sem/.git/hooks/pre-commit.sample" [label="pre-commit.sample"]
-	"../../Python4Sem/.git/hooks" -> "../../Python4Sem/.git/hooks/pre-commit.sample"
-	"../../Python4Sem/.git/hooks/pre-merge-commit.sample" [label="pre-merge-commit.sample"]
-	"../../Python4Sem/.git/hooks" -> "../../Python4Sem/.git/hooks/pre-merge-commit.sample"
-	"../../Python4Sem/.git/hooks/pre-push.sample" [label="pre-push.sample"]
-	"../../Python4Sem/.git/hooks" -> "../../Python4Sem/.git/hooks/pre-push.sample"
-	"../../Python4Sem/.git/hooks/pre-rebase.sample" [label="pre-rebase.sample"]
-	"../../Python4Sem/.git/hooks" -> "../../Python4Sem/.git/hooks/pre-rebase.sample"
-	"../../Python4Sem/.git/hooks/pre-receive.sample" [label="pre-receive.sample"]
-	"../../Python4Sem/.git/hooks" -> "../../Python4Sem/.git/hooks/pre-receive.sample"
-	"../../Python4Sem/.git/hooks/prepare-commit-msg.sample" [label="prepare-commit-msg.sample"]
-	"../../Python4Sem/.git/hooks" -> "../../Python4Sem/.git/hooks/prepare-commit-msg.sample"
-	"../../Python4Sem/.git/hooks/update.sample" [label="update.sample"]
-	"../../Python4Sem/.git/hooks" -> "../../Python4Sem/.git/hooks/update.sample"
-	"../../Python4Sem/.git/index" [label=index]
-	"../../Python4Sem/.git" -> "../../Python4Sem/.git/index"
-	"../../Python4Sem/.git/info" [label=info]
-	"../../Python4Sem/.git" -> "../../Python4Sem/.git/info"
-	"../../Python4Sem/.git/info/exclude" [label=exclude]
-	"../../Python4Sem/.git/info" -> "../../Python4Sem/.git/info/exclude"
-	"../../Python4Sem/.git/logs" [label=logs]
-	"../../Python4Sem/.git" -> "../../Python4Sem/.git/logs"
-	"../../Python4Sem/.git/logs/HEAD" [label=HEAD]
-	"../../Python4Sem/.git/logs" -> "../../Python4Sem/.git/logs/HEAD"
-	"../../Python4Sem/.git/logs/refs" [label=refs]
-	"../../Python4Sem/.git/logs" -> "../../Python4Sem/.git/logs/refs"
-	"../../Python4Sem/.git/logs/refs/heads" [label=heads]
-	"../../Python4Sem/.git/logs/refs" -> "../../Python4Sem/.git/logs/refs/heads"
-	"../../Python4Sem/.git/logs/refs/heads/master" [label=master]
-	"../../Python4Sem/.git/logs/refs/heads" -> "../../Python4Sem/.git/logs/refs/heads/master"
-	"../../Python4Sem/.git/logs/refs/remotes" [label=remotes]
-	"../../Python4Sem/.git/logs/refs" -> "../../Python4Sem/.git/logs/refs/remotes"
-	"../../Python4Sem/.git/logs/refs/remotes/origin" [label=origin]
-	"../../Python4Sem/.git/logs/refs/remotes" -> "../../Python4Sem/.git/logs/refs/remotes/origin"
-	"../../Python4Sem/.git/logs/refs/remotes/origin/HEAD" [label=HEAD]
-	"../../Python4Sem/.git/logs/refs/remotes/origin" -> "../../Python4Sem/.git/logs/refs/remotes/origin/HEAD"
-	"../../Python4Sem/.git/objects" [label=objects]
-	"../../Python4Sem/.git" -> "../../Python4Sem/.git/objects"
-	"../../Python4Sem/.git/objects/21" [label=21]
-	"../../Python4Sem/.git/objects" -> "../../Python4Sem/.git/objects/21"
-	"../../Python4Sem/.git/objects/21/0032add59c2f47319581aa05dfb57956dbf73b" [label="0032add59c2f47319581aa05dfb57956dbf73b"]
-	"../../Python4Sem/.git/objects/21" -> "../../Python4Sem/.git/objects/21/0032add59c2f47319581aa05dfb57956dbf73b"
-	"../../Python4Sem/.git/objects/26" [label=26]
-	"../../Python4Sem/.git/objects" -> "../../Python4Sem/.git/objects/26"
-	"../../Python4Sem/.git/objects/26/d33521af10bcc7fd8cea344038eaaeb78d0ef5" [label=d33521af10bcc7fd8cea344038eaaeb78d0ef5]
-	"../../Python4Sem/.git/objects/26" -> "../../Python4Sem/.git/objects/26/d33521af10bcc7fd8cea344038eaaeb78d0ef5"
-	"../../Python4Sem/.git/objects/2a" [label="2a"]
-	"../../Python4Sem/.git/objects" -> "../../Python4Sem/.git/objects/2a"
-	"../../Python4Sem/.git/objects/2a/4587eaddeb42ba6c066f39e683b739981483a8" [label="4587eaddeb42ba6c066f39e683b739981483a8"]
-	"../../Python4Sem/.git/objects/2a" -> "../../Python4Sem/.git/objects/2a/4587eaddeb42ba6c066f39e683b739981483a8"
-	"../../Python4Sem/.git/objects/3a" [label="3a"]
-	"../../Python4Sem/.git/objects" -> "../../Python4Sem/.git/objects/3a"
-	"../../Python4Sem/.git/objects/3a/f28f04dcb93c61f05e758a3868fff1e01eb175" [label=f28f04dcb93c61f05e758a3868fff1e01eb175]
-	"../../Python4Sem/.git/objects/3a" -> "../../Python4Sem/.git/objects/3a/f28f04dcb93c61f05e758a3868fff1e01eb175"
-	"../../Python4Sem/.git/objects/44" [label=44]
-	"../../Python4Sem/.git/objects" -> "../../Python4Sem/.git/objects/44"
-	"../../Python4Sem/.git/objects/44/9b58d7ac9b4cc2c044a0af8cfa541548e6b32f" [label="9b58d7ac9b4cc2c044a0af8cfa541548e6b32f"]
-	"../../Python4Sem/.git/objects/44" -> "../../Python4Sem/.git/objects/44/9b58d7ac9b4cc2c044a0af8cfa541548e6b32f"
-	"../../Python4Sem/.git/objects/47" [label=47]
-	"../../Python4Sem/.git/objects" -> "../../Python4Sem/.git/objects/47"
-	"../../Python4Sem/.git/objects/47/468cf67a2b57648cd3579af901ed82fcbdd0ea" [label="468cf67a2b57648cd3579af901ed82fcbdd0ea"]
-	"../../Python4Sem/.git/objects/47" -> "../../Python4Sem/.git/objects/47/468cf67a2b57648cd3579af901ed82fcbdd0ea"
-	"../../Python4Sem/.git/objects/47/ecd846e12ae0d236f97588199c2583ba5b4222" [label=ecd846e12ae0d236f97588199c2583ba5b4222]
-	"../../Python4Sem/.git/objects/47" -> "../../Python4Sem/.git/objects/47/ecd846e12ae0d236f97588199c2583ba5b4222"
-	"../../Python4Sem/.git/objects/4b" [label="4b"]
-	"../../Python4Sem/.git/objects" -> "../../Python4Sem/.git/objects/4b"
-	"../../Python4Sem/.git/objects/4b/e8daeab28ccc71be5a761a9c413dd50a0c7efe" [label=e8daeab28ccc71be5a761a9c413dd50a0c7efe]
-	"../../Python4Sem/.git/objects/4b" -> "../../Python4Sem/.git/objects/4b/e8daeab28ccc71be5a761a9c413dd50a0c7efe"
-	"../../Python4Sem/.git/objects/52" [label=52]
-	"../../Python4Sem/.git/objects" -> "../../Python4Sem/.git/objects/52"
-	"../../Python4Sem/.git/objects/52/0ffaefc3bcab8163cc0b60f8005d3fe989fc80" [label="0ffaefc3bcab8163cc0b60f8005d3fe989fc80"]
-	"../../Python4Sem/.git/objects/52" -> "../../Python4Sem/.git/objects/52/0ffaefc3bcab8163cc0b60f8005d3fe989fc80"
-	"../../Python4Sem/.git/objects/56" [label=56]
-	"../../Python4Sem/.git/objects" -> "../../Python4Sem/.git/objects/56"
-	"../../Python4Sem/.git/objects/56/a865c1d81b3aa21620c282496c71c438e1065f" [label=a865c1d81b3aa21620c282496c71c438e1065f]
-	"../../Python4Sem/.git/objects/56" -> "../../Python4Sem/.git/objects/56/a865c1d81b3aa21620c282496c71c438e1065f"
-	"../../Python4Sem/.git/objects/57" [label=57]
-	"../../Python4Sem/.git/objects" -> "../../Python4Sem/.git/objects/57"
-	"../../Python4Sem/.git/objects/57/3ec383222563a8f91bce678501310b4d943f02" [label="3ec383222563a8f91bce678501310b4d943f02"]
-	"../../Python4Sem/.git/objects/57" -> "../../Python4Sem/.git/objects/57/3ec383222563a8f91bce678501310b4d943f02"
-	"../../Python4Sem/.git/objects/65" [label=65]
-	"../../Python4Sem/.git/objects" -> "../../Python4Sem/.git/objects/65"
-	"../../Python4Sem/.git/objects/65/71d8507a02556e4e0ce407a07b79b90ae764bd" [label="71d8507a02556e4e0ce407a07b79b90ae764bd"]
-	"../../Python4Sem/.git/objects/65" -> "../../Python4Sem/.git/objects/65/71d8507a02556e4e0ce407a07b79b90ae764bd"
-	"../../Python4Sem/.git/objects/6a" [label="6a"]
-	"../../Python4Sem/.git/objects" -> "../../Python4Sem/.git/objects/6a"
-	"../../Python4Sem/.git/objects/6a/4f3de9f1cd0f600cf364d9dd887f3b22ed95cf" [label="4f3de9f1cd0f600cf364d9dd887f3b22ed95cf"]
-	"../../Python4Sem/.git/objects/6a" -> "../../Python4Sem/.git/objects/6a/4f3de9f1cd0f600cf364d9dd887f3b22ed95cf"
-	"../../Python4Sem/.git/objects/79" [label=79]
-	"../../Python4Sem/.git/objects" -> "../../Python4Sem/.git/objects/79"
-	"../../Python4Sem/.git/objects/79/7acea53eb091cf5b30518802c3073f544adeed" [label="7acea53eb091cf5b30518802c3073f544adeed"]
-	"../../Python4Sem/.git/objects/79" -> "../../Python4Sem/.git/objects/79/7acea53eb091cf5b30518802c3073f544adeed"
-	"../../Python4Sem/.git/objects/8c" [label="8c"]
-	"../../Python4Sem/.git/objects" -> "../../Python4Sem/.git/objects/8c"
-	"../../Python4Sem/.git/objects/8c/c9f296406736b8c0f73996fcd07d011061b0ae" [label=c9f296406736b8c0f73996fcd07d011061b0ae]
-	"../../Python4Sem/.git/objects/8c" -> "../../Python4Sem/.git/objects/8c/c9f296406736b8c0f73996fcd07d011061b0ae"
-	"../../Python4Sem/.git/objects/94" [label=94]
-	"../../Python4Sem/.git/objects" -> "../../Python4Sem/.git/objects/94"
-	"../../Python4Sem/.git/objects/94/a25f7f4cb416c083d265558da75d457237d671" [label=a25f7f4cb416c083d265558da75d457237d671]
-	"../../Python4Sem/.git/objects/94" -> "../../Python4Sem/.git/objects/94/a25f7f4cb416c083d265558da75d457237d671"
-	"../../Python4Sem/.git/objects/ad" [label=ad]
-	"../../Python4Sem/.git/objects" -> "../../Python4Sem/.git/objects/ad"
-	"../../Python4Sem/.git/objects/ad/3c0a365c8cd79b6f3291a01ea24ccdc75c0de0" [label="3c0a365c8cd79b6f3291a01ea24ccdc75c0de0"]
-	"../../Python4Sem/.git/objects/ad" -> "../../Python4Sem/.git/objects/ad/3c0a365c8cd79b6f3291a01ea24ccdc75c0de0"
-	"../../Python4Sem/.git/objects/b4" [label=b4]
-	"../../Python4Sem/.git/objects" -> "../../Python4Sem/.git/objects/b4"
-	"../../Python4Sem/.git/objects/b4/9ae459483634854e4450495d5ae796cb321b19" [label="9ae459483634854e4450495d5ae796cb321b19"]
-	"../../Python4Sem/.git/objects/b4" -> "../../Python4Sem/.git/objects/b4/9ae459483634854e4450495d5ae796cb321b19"
-	"../../Python4Sem/.git/objects/b7" [label=b7]
-	"../../Python4Sem/.git/objects" -> "../../Python4Sem/.git/objects/b7"
-	"../../Python4Sem/.git/objects/b7/c3844f8e4e68a08af0d9d6e9978d5ca7533152" [label=c3844f8e4e68a08af0d9d6e9978d5ca7533152]
-	"../../Python4Sem/.git/objects/b7" -> "../../Python4Sem/.git/objects/b7/c3844f8e4e68a08af0d9d6e9978d5ca7533152"
-	"../../Python4Sem/.git/objects/d5" [label=d5]
-	"../../Python4Sem/.git/objects" -> "../../Python4Sem/.git/objects/d5"
-	"../../Python4Sem/.git/objects/d5/181026ce7e8d8c8b28a4fb4764b3502b9b9ed5" [label="181026ce7e8d8c8b28a4fb4764b3502b9b9ed5"]
-	"../../Python4Sem/.git/objects/d5" -> "../../Python4Sem/.git/objects/d5/181026ce7e8d8c8b28a4fb4764b3502b9b9ed5"
-	"../../Python4Sem/.git/objects/dd" [label=dd]
-	"../../Python4Sem/.git/objects" -> "../../Python4Sem/.git/objects/dd"
-	"../../Python4Sem/.git/objects/dd/366b0ee8bcd886b9bfb893995c43fddd1573b3" [label="366b0ee8bcd886b9bfb893995c43fddd1573b3"]
-	"../../Python4Sem/.git/objects/dd" -> "../../Python4Sem/.git/objects/dd/366b0ee8bcd886b9bfb893995c43fddd1573b3"
-	"../../Python4Sem/.git/objects/e6" [label=e6]
-	"../../Python4Sem/.git/objects" -> "../../Python4Sem/.git/objects/e6"
-	"../../Python4Sem/.git/objects/e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391" [label="9de29bb2d1d6434b8b29ae775ad8c2e48c5391"]
-	"../../Python4Sem/.git/objects/e6" -> "../../Python4Sem/.git/objects/e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391"
-	"../../Python4Sem/.git/objects/e9" [label=e9]
-	"../../Python4Sem/.git/objects" -> "../../Python4Sem/.git/objects/e9"
-	"../../Python4Sem/.git/objects/e9/2aaee211cb1ed3c0f07b2b525f26c33d2f1fad" [label="2aaee211cb1ed3c0f07b2b525f26c33d2f1fad"]
-	"../../Python4Sem/.git/objects/e9" -> "../../Python4Sem/.git/objects/e9/2aaee211cb1ed3c0f07b2b525f26c33d2f1fad"
-	"../../Python4Sem/.git/objects/ed" [label=ed]
-	"../../Python4Sem/.git/objects" -> "../../Python4Sem/.git/objects/ed"
-	"../../Python4Sem/.git/objects/ed/914df9e649a5dcd44d81aecfed8f82bfcf7d6c" [label="914df9e649a5dcd44d81aecfed8f82bfcf7d6c"]
-	"../../Python4Sem/.git/objects/ed" -> "../../Python4Sem/.git/objects/ed/914df9e649a5dcd44d81aecfed8f82bfcf7d6c"
-	"../../Python4Sem/.git/objects/info" [label=info]
-	"../../Python4Sem/.git/objects" -> "../../Python4Sem/.git/objects/info"
-	"../../Python4Sem/.git/objects/pack" [label=pack]
-	"../../Python4Sem/.git/objects" -> "../../Python4Sem/.git/objects/pack"
-	"../../Python4Sem/.git/packed-refs" [label="packed-refs"]
-	"../../Python4Sem/.git" -> "../../Python4Sem/.git/packed-refs"
-	"../../Python4Sem/.git/refs" [label=refs]
-	"../../Python4Sem/.git" -> "../../Python4Sem/.git/refs"
-	"../../Python4Sem/.git/refs/heads" [label=heads]
-	"../../Python4Sem/.git/refs" -> "../../Python4Sem/.git/refs/heads"
-	"../../Python4Sem/.git/refs/heads/master" [label=master]
-	"../../Python4Sem/.git/refs/heads" -> "../../Python4Sem/.git/refs/heads/master"
-	"../../Python4Sem/.git/refs/remotes" [label=remotes]
-	"../../Python4Sem/.git/refs" -> "../../Python4Sem/.git/refs/remotes"
-	"../../Python4Sem/.git/refs/remotes/origin" [label=origin]
-	"../../Python4Sem/.git/refs/remotes" -> "../../Python4Sem/.git/refs/remotes/origin"
-	"../../Python4Sem/.git/refs/remotes/origin/HEAD" [label=HEAD]
-	"../../Python4Sem/.git/refs/remotes/origin" -> "../../Python4Sem/.git/refs/remotes/origin/HEAD"
-	"../../Python4Sem/.git/refs/tags" [label=tags]
-	"../../Python4Sem/.git/refs" -> "../../Python4Sem/.git/refs/tags"
-	"../../Python4Sem/.idea" [label=".idea"]
-	"../../Python4Sem" -> "../../Python4Sem/.idea"
-	"../../Python4Sem/.idea/.gitignore" [label=".gitignore"]
-	"../../Python4Sem/.idea" -> "../../Python4Sem/.idea/.gitignore"
-	"../../Python4Sem/.idea/misc.xml" [label="misc.xml"]
-	"../../Python4Sem/.idea" -> "../../Python4Sem/.idea/misc.xml"
-	"../../Python4Sem/.idea/modules.xml" [label="modules.xml"]
-	"../../Python4Sem/.idea" -> "../../Python4Sem/.idea/modules.xml"
-	"../../Python4Sem/.idea/runConfigurations.xml" [label="runConfigurations.xml"]
-	"../../Python4Sem/.idea" -> "../../Python4Sem/.idea/runConfigurations.xml"
-	"../../Python4Sem/.idea/vcs.xml" [label="vcs.xml"]
-	"../../Python4Sem/.idea" -> "../../Python4Sem/.idea/vcs.xml"
-	"../../Python4Sem/.idea/workspace.xml" [label="workspace.xml"]
-	"../../Python4Sem/.idea" -> "../../Python4Sem/.idea/workspace.xml"
-	"../../Python4Sem/practice1" [label=practice1]
-	"../../Python4Sem" -> "../../Python4Sem/practice1"
-	"../../Python4Sem/practice1/task10.py" [label="task10.py"]
-	"../../Python4Sem/practice1" -> "../../Python4Sem/practice1/task10.py"
-	"../../Python4Sem/practice1/task11.py" [label="task11.py"]
-	"../../Python4Sem/practice1" -> "../../Python4Sem/practice1/task11.py"
-	"../../Python4Sem/practice1/task4.py" [label="task4.py"]
-	"../../Python4Sem/practice1" -> "../../Python4Sem/practice1/task4.py"
-	"../../Python4Sem/practice1/task6.py" [label="task6.py"]
-	"../../Python4Sem/practice1" -> "../../Python4Sem/practice1/task6.py"
-	"../../Python4Sem/practice1/task9.py" [label="task9.py"]
-	"../../Python4Sem/practice1" -> "../../Python4Sem/practice1/task9.py"
-	"../../Python4Sem/practice2" [label=practice2]
-	"../../Python4Sem" -> "../../Python4Sem/practice2"
-	"../../Python4Sem/practice2/ExcelFor5.xlsx" [label="ExcelFor5.xlsx"]
-	"../../Python4Sem/practice2" -> "../../Python4Sem/practice2/ExcelFor5.xlsx"
-	"../../Python4Sem/practice2/output" [label=output]
-	"../../Python4Sem/practice2" -> "../../Python4Sem/practice2/output"
-	"../../Python4Sem/practice2/output/dirs.gv" [label="dirs.gv"]
-	"../../Python4Sem/practice2/output" -> "../../Python4Sem/practice2/output/dirs.gv"
-	"../../Python4Sem/practice2/output/dirs.gv.pdf" [label="dirs.gv.pdf"]
-	"../../Python4Sem/practice2/output" -> "../../Python4Sem/practice2/output/dirs.gv.pdf"
-	"../../Python4Sem/practice2/task13.py" [label="task13.py"]
-	"../../Python4Sem/practice2" -> "../../Python4Sem/practice2/task13.py"
-	"../../Python4Sem/practice2/task2.py" [label="task2.py"]
-	"../../Python4Sem/practice2" -> "../../Python4Sem/practice2/task2.py"
-	"../../Python4Sem/practice2/task4.py" [label="task4.py"]
-	"../../Python4Sem/practice2" -> "../../Python4Sem/practice2/task4.py"
-	"../../Python4Sem/practice2/task5.py" [label="task5.py"]
-	"../../Python4Sem/practice2" -> "../../Python4Sem/practice2/task5.py"
-	"../../Python4Sem/practice2/task8.py" [label="task8.py"]
-	"../../Python4Sem/practice2" -> "../../Python4Sem/practice2/task8.py"
-	"../../Python4Sem/Python.iml" [label="Python.iml"]
-	"../../Python4Sem" -> "../../Python4Sem/Python.iml"
-	"../../Python4Sem/robot" [label=robot]
-	"../../Python4Sem" -> "../../Python4Sem/robot"
-	"../../Python4Sem/robot/task1.py" [label="task1.py"]
-	"../../Python4Sem/robot" -> "../../Python4Sem/robot/task1.py"
+	"../../Python" [label=Python]
+	"../../Python/.git" [label=".git"]
+	"../../Python" -> "../../Python/.git"
+	"../../Python/.git/COMMIT_EDITMSG" [label=COMMIT_EDITMSG]
+	"../../Python/.git" -> "../../Python/.git/COMMIT_EDITMSG"
+	"../../Python/.git/config" [label=config]
+	"../../Python/.git" -> "../../Python/.git/config"
+	"../../Python/.git/description" [label=description]
+	"../../Python/.git" -> "../../Python/.git/description"
+	"../../Python/.git/FETCH_HEAD" [label=FETCH_HEAD]
+	"../../Python/.git" -> "../../Python/.git/FETCH_HEAD"
+	"../../Python/.git/HEAD" [label=HEAD]
+	"../../Python/.git" -> "../../Python/.git/HEAD"
+	"../../Python/.git/hooks" [label=hooks]
+	"../../Python/.git" -> "../../Python/.git/hooks"
+	"../../Python/.git/hooks/applypatch-msg.sample" [label="applypatch-msg.sample"]
+	"../../Python/.git/hooks" -> "../../Python/.git/hooks/applypatch-msg.sample"
+	"../../Python/.git/hooks/commit-msg.sample" [label="commit-msg.sample"]
+	"../../Python/.git/hooks" -> "../../Python/.git/hooks/commit-msg.sample"
+	"../../Python/.git/hooks/fsmonitor-watchman.sample" [label="fsmonitor-watchman.sample"]
+	"../../Python/.git/hooks" -> "../../Python/.git/hooks/fsmonitor-watchman.sample"
+	"../../Python/.git/hooks/post-update.sample" [label="post-update.sample"]
+	"../../Python/.git/hooks" -> "../../Python/.git/hooks/post-update.sample"
+	"../../Python/.git/hooks/pre-applypatch.sample" [label="pre-applypatch.sample"]
+	"../../Python/.git/hooks" -> "../../Python/.git/hooks/pre-applypatch.sample"
+	"../../Python/.git/hooks/pre-commit.sample" [label="pre-commit.sample"]
+	"../../Python/.git/hooks" -> "../../Python/.git/hooks/pre-commit.sample"
+	"../../Python/.git/hooks/pre-merge-commit.sample" [label="pre-merge-commit.sample"]
+	"../../Python/.git/hooks" -> "../../Python/.git/hooks/pre-merge-commit.sample"
+	"../../Python/.git/hooks/pre-push.sample" [label="pre-push.sample"]
+	"../../Python/.git/hooks" -> "../../Python/.git/hooks/pre-push.sample"
+	"../../Python/.git/hooks/pre-rebase.sample" [label="pre-rebase.sample"]
+	"../../Python/.git/hooks" -> "../../Python/.git/hooks/pre-rebase.sample"
+	"../../Python/.git/hooks/pre-receive.sample" [label="pre-receive.sample"]
+	"../../Python/.git/hooks" -> "../../Python/.git/hooks/pre-receive.sample"
+	"../../Python/.git/hooks/prepare-commit-msg.sample" [label="prepare-commit-msg.sample"]
+	"../../Python/.git/hooks" -> "../../Python/.git/hooks/prepare-commit-msg.sample"
+	"../../Python/.git/hooks/update.sample" [label="update.sample"]
+	"../../Python/.git/hooks" -> "../../Python/.git/hooks/update.sample"
+	"../../Python/.git/index" [label=index]
+	"../../Python/.git" -> "../../Python/.git/index"
+	"../../Python/.git/info" [label=info]
+	"../../Python/.git" -> "../../Python/.git/info"
+	"../../Python/.git/info/exclude" [label=exclude]
+	"../../Python/.git/info" -> "../../Python/.git/info/exclude"
+	"../../Python/.git/logs" [label=logs]
+	"../../Python/.git" -> "../../Python/.git/logs"
+	"../../Python/.git/logs/HEAD" [label=HEAD]
+	"../../Python/.git/logs" -> "../../Python/.git/logs/HEAD"
+	"../../Python/.git/logs/refs" [label=refs]
+	"../../Python/.git/logs" -> "../../Python/.git/logs/refs"
+	"../../Python/.git/logs/refs/heads" [label=heads]
+	"../../Python/.git/logs/refs" -> "../../Python/.git/logs/refs/heads"
+	"../../Python/.git/logs/refs/heads/master" [label=master]
+	"../../Python/.git/logs/refs/heads" -> "../../Python/.git/logs/refs/heads/master"
+	"../../Python/.git/logs/refs/remotes" [label=remotes]
+	"../../Python/.git/logs/refs" -> "../../Python/.git/logs/refs/remotes"
+	"../../Python/.git/logs/refs/remotes/origin" [label=origin]
+	"../../Python/.git/logs/refs/remotes" -> "../../Python/.git/logs/refs/remotes/origin"
+	"../../Python/.git/logs/refs/remotes/origin/master" [label=master]
+	"../../Python/.git/logs/refs/remotes/origin" -> "../../Python/.git/logs/refs/remotes/origin/master"
+	"../../Python/.git/objects" [label=objects]
+	"../../Python/.git" -> "../../Python/.git/objects"
+	"../../Python/.git/objects/06" [label=06]
+	"../../Python/.git/objects" -> "../../Python/.git/objects/06"
+	"../../Python/.git/objects/06/e7ab147ea9bcf52e752754d014fdf783398538" [label=e7ab147ea9bcf52e752754d014fdf783398538]
+	"../../Python/.git/objects/06" -> "../../Python/.git/objects/06/e7ab147ea9bcf52e752754d014fdf783398538"
+	"../../Python/.git/objects/07" [label=07]
+	"../../Python/.git/objects" -> "../../Python/.git/objects/07"
+	"../../Python/.git/objects/07/c70d16e4bf8e7536c5c479e1979aff6f6892b1" [label=c70d16e4bf8e7536c5c479e1979aff6f6892b1]
+	"../../Python/.git/objects/07" -> "../../Python/.git/objects/07/c70d16e4bf8e7536c5c479e1979aff6f6892b1"
+	"../../Python/.git/objects/21" [label=21]
+	"../../Python/.git/objects" -> "../../Python/.git/objects/21"
+	"../../Python/.git/objects/21/0032add59c2f47319581aa05dfb57956dbf73b" [label="0032add59c2f47319581aa05dfb57956dbf73b"]
+	"../../Python/.git/objects/21" -> "../../Python/.git/objects/21/0032add59c2f47319581aa05dfb57956dbf73b"
+	"../../Python/.git/objects/26" [label=26]
+	"../../Python/.git/objects" -> "../../Python/.git/objects/26"
+	"../../Python/.git/objects/26/d33521af10bcc7fd8cea344038eaaeb78d0ef5" [label=d33521af10bcc7fd8cea344038eaaeb78d0ef5]
+	"../../Python/.git/objects/26" -> "../../Python/.git/objects/26/d33521af10bcc7fd8cea344038eaaeb78d0ef5"
+	"../../Python/.git/objects/2a" [label="2a"]
+	"../../Python/.git/objects" -> "../../Python/.git/objects/2a"
+	"../../Python/.git/objects/2a/4587eaddeb42ba6c066f39e683b739981483a8" [label="4587eaddeb42ba6c066f39e683b739981483a8"]
+	"../../Python/.git/objects/2a" -> "../../Python/.git/objects/2a/4587eaddeb42ba6c066f39e683b739981483a8"
+	"../../Python/.git/objects/3a" [label="3a"]
+	"../../Python/.git/objects" -> "../../Python/.git/objects/3a"
+	"../../Python/.git/objects/3a/f28f04dcb93c61f05e758a3868fff1e01eb175" [label=f28f04dcb93c61f05e758a3868fff1e01eb175]
+	"../../Python/.git/objects/3a" -> "../../Python/.git/objects/3a/f28f04dcb93c61f05e758a3868fff1e01eb175"
+	"../../Python/.git/objects/47" [label=47]
+	"../../Python/.git/objects" -> "../../Python/.git/objects/47"
+	"../../Python/.git/objects/47/468cf67a2b57648cd3579af901ed82fcbdd0ea" [label="468cf67a2b57648cd3579af901ed82fcbdd0ea"]
+	"../../Python/.git/objects/47" -> "../../Python/.git/objects/47/468cf67a2b57648cd3579af901ed82fcbdd0ea"
+	"../../Python/.git/objects/47/ecd846e12ae0d236f97588199c2583ba5b4222" [label=ecd846e12ae0d236f97588199c2583ba5b4222]
+	"../../Python/.git/objects/47" -> "../../Python/.git/objects/47/ecd846e12ae0d236f97588199c2583ba5b4222"
+	"../../Python/.git/objects/4b" [label="4b"]
+	"../../Python/.git/objects" -> "../../Python/.git/objects/4b"
+	"../../Python/.git/objects/4b/e8daeab28ccc71be5a761a9c413dd50a0c7efe" [label=e8daeab28ccc71be5a761a9c413dd50a0c7efe]
+	"../../Python/.git/objects/4b" -> "../../Python/.git/objects/4b/e8daeab28ccc71be5a761a9c413dd50a0c7efe"
+	"../../Python/.git/objects/52" [label=52]
+	"../../Python/.git/objects" -> "../../Python/.git/objects/52"
+	"../../Python/.git/objects/52/0ffaefc3bcab8163cc0b60f8005d3fe989fc80" [label="0ffaefc3bcab8163cc0b60f8005d3fe989fc80"]
+	"../../Python/.git/objects/52" -> "../../Python/.git/objects/52/0ffaefc3bcab8163cc0b60f8005d3fe989fc80"
+	"../../Python/.git/objects/55" [label=55]
+	"../../Python/.git/objects" -> "../../Python/.git/objects/55"
+	"../../Python/.git/objects/55/d7f844f60dad476b8710851df463e64bd226dd" [label=d7f844f60dad476b8710851df463e64bd226dd]
+	"../../Python/.git/objects/55" -> "../../Python/.git/objects/55/d7f844f60dad476b8710851df463e64bd226dd"
+	"../../Python/.git/objects/56" [label=56]
+	"../../Python/.git/objects" -> "../../Python/.git/objects/56"
+	"../../Python/.git/objects/56/a865c1d81b3aa21620c282496c71c438e1065f" [label=a865c1d81b3aa21620c282496c71c438e1065f]
+	"../../Python/.git/objects/56" -> "../../Python/.git/objects/56/a865c1d81b3aa21620c282496c71c438e1065f"
+	"../../Python/.git/objects/64" [label=64]
+	"../../Python/.git/objects" -> "../../Python/.git/objects/64"
+	"../../Python/.git/objects/64/8b5ed47ffe7a7063c69070c5c15e90a6220fa7" [label="8b5ed47ffe7a7063c69070c5c15e90a6220fa7"]
+	"../../Python/.git/objects/64" -> "../../Python/.git/objects/64/8b5ed47ffe7a7063c69070c5c15e90a6220fa7"
+	"../../Python/.git/objects/65" [label=65]
+	"../../Python/.git/objects" -> "../../Python/.git/objects/65"
+	"../../Python/.git/objects/65/71d8507a02556e4e0ce407a07b79b90ae764bd" [label="71d8507a02556e4e0ce407a07b79b90ae764bd"]
+	"../../Python/.git/objects/65" -> "../../Python/.git/objects/65/71d8507a02556e4e0ce407a07b79b90ae764bd"
+	"../../Python/.git/objects/6a" [label="6a"]
+	"../../Python/.git/objects" -> "../../Python/.git/objects/6a"
+	"../../Python/.git/objects/6a/4f3de9f1cd0f600cf364d9dd887f3b22ed95cf" [label="4f3de9f1cd0f600cf364d9dd887f3b22ed95cf"]
+	"../../Python/.git/objects/6a" -> "../../Python/.git/objects/6a/4f3de9f1cd0f600cf364d9dd887f3b22ed95cf"
+	"../../Python/.git/objects/74" [label=74]
+	"../../Python/.git/objects" -> "../../Python/.git/objects/74"
+	"../../Python/.git/objects/74/9f4650ada521f68503999a91646e98a1a30903" [label="9f4650ada521f68503999a91646e98a1a30903"]
+	"../../Python/.git/objects/74" -> "../../Python/.git/objects/74/9f4650ada521f68503999a91646e98a1a30903"
+	"../../Python/.git/objects/79" [label=79]
+	"../../Python/.git/objects" -> "../../Python/.git/objects/79"
+	"../../Python/.git/objects/79/7acea53eb091cf5b30518802c3073f544adeed" [label="7acea53eb091cf5b30518802c3073f544adeed"]
+	"../../Python/.git/objects/79" -> "../../Python/.git/objects/79/7acea53eb091cf5b30518802c3073f544adeed"
+	"../../Python/.git/objects/7a" [label="7a"]
+	"../../Python/.git/objects" -> "../../Python/.git/objects/7a"
+	"../../Python/.git/objects/7a/de52e97910302f12083e3dfbef53a72cb8e890" [label=de52e97910302f12083e3dfbef53a72cb8e890]
+	"../../Python/.git/objects/7a" -> "../../Python/.git/objects/7a/de52e97910302f12083e3dfbef53a72cb8e890"
+	"../../Python/.git/objects/7e" [label="7e"]
+	"../../Python/.git/objects" -> "../../Python/.git/objects/7e"
+	"../../Python/.git/objects/7e/046e2f05db3a7a0865460803b69336dc8c6ecf" [label="046e2f05db3a7a0865460803b69336dc8c6ecf"]
+	"../../Python/.git/objects/7e" -> "../../Python/.git/objects/7e/046e2f05db3a7a0865460803b69336dc8c6ecf"
+	"../../Python/.git/objects/8c" [label="8c"]
+	"../../Python/.git/objects" -> "../../Python/.git/objects/8c"
+	"../../Python/.git/objects/8c/c9f296406736b8c0f73996fcd07d011061b0ae" [label=c9f296406736b8c0f73996fcd07d011061b0ae]
+	"../../Python/.git/objects/8c" -> "../../Python/.git/objects/8c/c9f296406736b8c0f73996fcd07d011061b0ae"
+	"../../Python/.git/objects/94" [label=94]
+	"../../Python/.git/objects" -> "../../Python/.git/objects/94"
+	"../../Python/.git/objects/94/a25f7f4cb416c083d265558da75d457237d671" [label=a25f7f4cb416c083d265558da75d457237d671]
+	"../../Python/.git/objects/94" -> "../../Python/.git/objects/94/a25f7f4cb416c083d265558da75d457237d671"
+	"../../Python/.git/objects/ad" [label=ad]
+	"../../Python/.git/objects" -> "../../Python/.git/objects/ad"
+	"../../Python/.git/objects/ad/3c0a365c8cd79b6f3291a01ea24ccdc75c0de0" [label="3c0a365c8cd79b6f3291a01ea24ccdc75c0de0"]
+	"../../Python/.git/objects/ad" -> "../../Python/.git/objects/ad/3c0a365c8cd79b6f3291a01ea24ccdc75c0de0"
+	"../../Python/.git/objects/b4" [label=b4]
+	"../../Python/.git/objects" -> "../../Python/.git/objects/b4"
+	"../../Python/.git/objects/b4/9ae459483634854e4450495d5ae796cb321b19" [label="9ae459483634854e4450495d5ae796cb321b19"]
+	"../../Python/.git/objects/b4" -> "../../Python/.git/objects/b4/9ae459483634854e4450495d5ae796cb321b19"
+	"../../Python/.git/objects/b7" [label=b7]
+	"../../Python/.git/objects" -> "../../Python/.git/objects/b7"
+	"../../Python/.git/objects/b7/c3844f8e4e68a08af0d9d6e9978d5ca7533152" [label=c3844f8e4e68a08af0d9d6e9978d5ca7533152]
+	"../../Python/.git/objects/b7" -> "../../Python/.git/objects/b7/c3844f8e4e68a08af0d9d6e9978d5ca7533152"
+	"../../Python/.git/objects/c6" [label=c6]
+	"../../Python/.git/objects" -> "../../Python/.git/objects/c6"
+	"../../Python/.git/objects/c6/0b428f3b503215151a104bfd04b6984f27c006" [label="0b428f3b503215151a104bfd04b6984f27c006"]
+	"../../Python/.git/objects/c6" -> "../../Python/.git/objects/c6/0b428f3b503215151a104bfd04b6984f27c006"
+	"../../Python/.git/objects/cf" [label=cf]
+	"../../Python/.git/objects" -> "../../Python/.git/objects/cf"
+	"../../Python/.git/objects/cf/7fc6777b211bb6966557a0f299f7c317cb2dd1" [label="7fc6777b211bb6966557a0f299f7c317cb2dd1"]
+	"../../Python/.git/objects/cf" -> "../../Python/.git/objects/cf/7fc6777b211bb6966557a0f299f7c317cb2dd1"
+	"../../Python/.git/objects/d5" [label=d5]
+	"../../Python/.git/objects" -> "../../Python/.git/objects/d5"
+	"../../Python/.git/objects/d5/181026ce7e8d8c8b28a4fb4764b3502b9b9ed5" [label="181026ce7e8d8c8b28a4fb4764b3502b9b9ed5"]
+	"../../Python/.git/objects/d5" -> "../../Python/.git/objects/d5/181026ce7e8d8c8b28a4fb4764b3502b9b9ed5"
+	"../../Python/.git/objects/dd" [label=dd]
+	"../../Python/.git/objects" -> "../../Python/.git/objects/dd"
+	"../../Python/.git/objects/dd/366b0ee8bcd886b9bfb893995c43fddd1573b3" [label="366b0ee8bcd886b9bfb893995c43fddd1573b3"]
+	"../../Python/.git/objects/dd" -> "../../Python/.git/objects/dd/366b0ee8bcd886b9bfb893995c43fddd1573b3"
+	"../../Python/.git/objects/e9" [label=e9]
+	"../../Python/.git/objects" -> "../../Python/.git/objects/e9"
+	"../../Python/.git/objects/e9/2aaee211cb1ed3c0f07b2b525f26c33d2f1fad" [label="2aaee211cb1ed3c0f07b2b525f26c33d2f1fad"]
+	"../../Python/.git/objects/e9" -> "../../Python/.git/objects/e9/2aaee211cb1ed3c0f07b2b525f26c33d2f1fad"
+	"../../Python/.git/objects/ed" [label=ed]
+	"../../Python/.git/objects" -> "../../Python/.git/objects/ed"
+	"../../Python/.git/objects/ed/914df9e649a5dcd44d81aecfed8f82bfcf7d6c" [label="914df9e649a5dcd44d81aecfed8f82bfcf7d6c"]
+	"../../Python/.git/objects/ed" -> "../../Python/.git/objects/ed/914df9e649a5dcd44d81aecfed8f82bfcf7d6c"
+	"../../Python/.git/objects/info" [label=info]
+	"../../Python/.git/objects" -> "../../Python/.git/objects/info"
+	"../../Python/.git/objects/pack" [label=pack]
+	"../../Python/.git/objects" -> "../../Python/.git/objects/pack"
+	"../../Python/.git/ORIG_HEAD" [label=ORIG_HEAD]
+	"../../Python/.git" -> "../../Python/.git/ORIG_HEAD"
+	"../../Python/.git/refs" [label=refs]
+	"../../Python/.git" -> "../../Python/.git/refs"
+	"../../Python/.git/refs/heads" [label=heads]
+	"../../Python/.git/refs" -> "../../Python/.git/refs/heads"
+	"../../Python/.git/refs/heads/master" [label=master]
+	"../../Python/.git/refs/heads" -> "../../Python/.git/refs/heads/master"
+	"../../Python/.git/refs/remotes" [label=remotes]
+	"../../Python/.git/refs" -> "../../Python/.git/refs/remotes"
+	"../../Python/.git/refs/remotes/origin" [label=origin]
+	"../../Python/.git/refs/remotes" -> "../../Python/.git/refs/remotes/origin"
+	"../../Python/.git/refs/remotes/origin/master" [label=master]
+	"../../Python/.git/refs/remotes/origin" -> "../../Python/.git/refs/remotes/origin/master"
+	"../../Python/.git/refs/tags" [label=tags]
+	"../../Python/.git/refs" -> "../../Python/.git/refs/tags"
+	"../../Python/.idea" [label=".idea"]
+	"../../Python" -> "../../Python/.idea"
+	"../../Python/.idea/.gitignore" [label=".gitignore"]
+	"../../Python/.idea" -> "../../Python/.idea/.gitignore"
+	"../../Python/.idea/misc.xml" [label="misc.xml"]
+	"../../Python/.idea" -> "../../Python/.idea/misc.xml"
+	"../../Python/.idea/modules.xml" [label="modules.xml"]
+	"../../Python/.idea" -> "../../Python/.idea/modules.xml"
+	"../../Python/.idea/runConfigurations.xml" [label="runConfigurations.xml"]
+	"../../Python/.idea" -> "../../Python/.idea/runConfigurations.xml"
+	"../../Python/.idea/vcs.xml" [label="vcs.xml"]
+	"../../Python/.idea" -> "../../Python/.idea/vcs.xml"
+	"../../Python/.idea/workspace.xml" [label="workspace.xml"]
+	"../../Python/.idea" -> "../../Python/.idea/workspace.xml"
+	"../../Python/practice1" [label=practice1]
+	"../../Python" -> "../../Python/practice1"
+	"../../Python/practice1/task10.py" [label="task10.py"]
+	"../../Python/practice1" -> "../../Python/practice1/task10.py"
+	"../../Python/practice1/task11.py" [label="task11.py"]
+	"../../Python/practice1" -> "../../Python/practice1/task11.py"
+	"../../Python/practice1/task4.py" [label="task4.py"]
+	"../../Python/practice1" -> "../../Python/practice1/task4.py"
+	"../../Python/practice1/task6.py" [label="task6.py"]
+	"../../Python/practice1" -> "../../Python/practice1/task6.py"
+	"../../Python/practice1/task9.py" [label="task9.py"]
+	"../../Python/practice1" -> "../../Python/practice1/task9.py"
+	"../../Python/practice2" [label=practice2]
+	"../../Python" -> "../../Python/practice2"
+	"../../Python/practice2/ExcelFor5.xlsx" [label="ExcelFor5.xlsx"]
+	"../../Python/practice2" -> "../../Python/practice2/ExcelFor5.xlsx"
+	"../../Python/practice2/output" [label=output]
+	"../../Python/practice2" -> "../../Python/practice2/output"
+	"../../Python/practice2/output/dirs.gv" [label="dirs.gv"]
+	"../../Python/practice2/output" -> "../../Python/practice2/output/dirs.gv"
+	"../../Python/practice2/output/dirs.gv.pdf" [label="dirs.gv.pdf"]
+	"../../Python/practice2/output" -> "../../Python/practice2/output/dirs.gv.pdf"
+	"../../Python/practice2/task13.py" [label="task13.py"]
+	"../../Python/practice2" -> "../../Python/practice2/task13.py"
+	"../../Python/practice2/task2.py" [label="task2.py"]
+	"../../Python/practice2" -> "../../Python/practice2/task2.py"
+	"../../Python/practice2/task4.py" [label="task4.py"]
+	"../../Python/practice2" -> "../../Python/practice2/task4.py"
+	"../../Python/practice2/task5.py" [label="task5.py"]
+	"../../Python/practice2" -> "../../Python/practice2/task5.py"
+	"../../Python/practice2/task8.py" [label="task8.py"]
+	"../../Python/practice2" -> "../../Python/practice2/task8.py"
+	"../../Python/Python.iml" [label="Python.iml"]
+	"../../Python" -> "../../Python/Python.iml"
+	"../../Python/robot" [label=robot]
+	"../../Python" -> "../../Python/robot"
+	"../../Python/robot/task1.py" [label="task1.py"]
+	"../../Python/robot" -> "../../Python/robot/task1.py"
 }
