@@ -1,5 +1,6 @@
 from PIL import Image, ImageFont, ImageDraw
 
+
 def tweakseed(s):
     temp = sum(s) % 0x10000
     s[0] = s[1]
