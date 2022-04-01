@@ -25,6 +25,8 @@ COLORS = [
 
 
 def draw_line(coords, color_index):
+    if len(coords) <= 1:
+        return
     canvas.create_line(*[(x * SCALE_X, y * SCALE_Y) for x, y in coords],
                        fill='#%02x%02x%02x' % COLORS[color_index], width=4)
 
@@ -93,7 +95,7 @@ def draw(pic):
         match com:
             case 0xF0:
                 active = True
-                color = COLORS[args[0]]
+                color = args[0]
             case 0xF1:
                 active = False
             case 0xF4:
