@@ -63,6 +63,34 @@ def draw_rel(args, color):
     draw_line(coords, color)
 
 
+def draw_y_corner(args, color):
+    x, y = args[0], args[1]
+    coords = [(x, y)]
+    iftp = 0
+    for arg in args[2:]:
+        if iftp % 2 == 0:
+            x, y = (x, arg)
+        else:
+            x, y = (arg, y)
+        coords.append((x, y))
+        iftp += 1
+    draw_line(coords, color)
+
+
+def draw_x_corner(args, color):
+    x, y = args[0], args[1]
+    coords = [(x, y)]
+    iftp = 0
+    for arg in args[2:]:
+        if iftp % 2 == 1:
+            x, y = (x, arg)
+        else:
+            x, y = (arg, y)
+        coords.append((x, y))
+        iftp += 1
+    draw_line(coords, color)
+
+
 def draw(pic):
     # Parse commands from file
     commands = []
@@ -87,10 +115,10 @@ def draw(pic):
             picdraw = False
             continue
         if action == 0xf4 and picdraw:
-            draw_corner(args, piccolor, isY=True)
+            draw_y_corner(args, piccolor)#, isY=True)
             continue
         if action == 0xf5 and picdraw:
-            draw_corner(args, piccolor, isY=False)
+            draw_x_corner(args, piccolor)#, isY=False)
             continue
         if action == 0xf6 and picdraw:
             draw_abs(args, piccolor)
