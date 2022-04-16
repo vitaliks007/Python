@@ -61,8 +61,14 @@ def draw_x_corner(args, color):
 
 def draw_abs_line(args, color):
     coords = []
-    for x, y in args:
-        coords.append((x, y))
+    iftp = 0
+    for coord in args:
+        if iftp % 2 == 1:
+            y = coord
+            coords.append((x, y))
+        else:
+            x = coord
+        iftp += 1
     draw_line(coords, color)
 
 
@@ -70,29 +76,33 @@ def draw_rel_line(args, color):
     x, y = args[0], args[1]
     coords = [(x, y)]
     for arg in args[2:]:
-        x += ((arg & 112) >> 4) * pow(-1, (arg & 128) >> 7)
-        y += (arg & 7) * pow(-1, (arg & 8) >> 3)
+        if (arg & 128) >> 7 == 1:
+            x -= ((arg & 112) >> 4)
+        else:
+            x += ((arg & 112) >> 4)
+
+        if (arg & 8) >> 3 == 1:
+            y -= (arg & 7)
+        else:
+            y += (arg & 7)
         coords.append((x, y))
     draw_line(coords, color)
 
 
 def draw(pic):
-    last = 0
-    coms = {}
+    ind = -1
+    coms = []
     for byte in pic:
         if byte >= 0xF0:
-            last = byte
-        else:
-            try:
-                coms[last].append(byte)
-            except Exception:
-                coms[last] = [byte]
+            coms.append([])
+            ind += 1
+        coms[ind].append(byte)
 
     active = False
-    color = COLORS[0]
-    for com in coms.keys():
-        args = coms[com]
-        match com:
+    color = 0
+    for com in coms:
+        args = com[1:]
+        match com[0]:
             case 0xF0:
                 active = True
                 color = args[0]
@@ -112,7 +122,7 @@ def draw(pic):
                     draw_rel_line(args, color)
 
 
-pic = Path('data/PIC.1').read_bytes()
+pic = Path('data/PIC.' + input()).read_bytes()
 canvas = tk.Canvas(width=160 * SCALE_X, height=170 * SCALE_Y)
 canvas.pack()
 draw(pic)
