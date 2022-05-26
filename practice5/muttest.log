@@ -1,20 +1,5 @@
 Survived mutants:
------------------
-
---- Survived mutant #1 ---
-def fact(n):
-    result = 1
-    positive = True
-    if n <= 0:
-        n *= -1
-        if n % 2:
-            positive = False
-    while n > 0:
-        result *= n
-        n -= 1
-    if not positive:
-        result *= -1
-    return result
+None.
 
 
 Killed mutants:
@@ -28,7 +13,7 @@ def fact(n):
         n *= -1
         if n % 2:
             positive = False
-    while n < 0:
+    while n <= 0:
         result *= n
         n -= 1
     if not positive:
@@ -39,15 +24,15 @@ def fact(n):
 def fact(n):
     result = 1
     positive = True
-    if n < 0:
-        n *= +1
+    if n > 0:
+        n *= -1
         if n % 2:
             positive = False
     while n > 0:
         result *= n
         n -= 1
     if not positive:
-        result *= +1
+        result *= -1
     return result
 
 --- Killed mutant #3 ---
@@ -69,11 +54,11 @@ def fact(n):
 def fact(n):
     result = 1
     positive = True
-    if n >= 0:
-        n *= +1
+    if n < 0:
+        n *= -1
         if n % 2:
             positive = False
-    while n > 0:
+    while n < 0:
         result *= n
         n -= 1
     if not positive:
@@ -84,9 +69,9 @@ def fact(n):
 def fact(n):
     result = 1
     positive = True
-    if n <= 0:
+    if n < 0:
         n *= -1
-        if n / 2:
+        if n % 2:
             positive = False
     while n >= 0:
         result *= n
@@ -100,57 +85,12 @@ def fact(n):
     result = 1
     positive = True
     if n > 0:
-        n *= +1
-        if n / 2:
-            positive = False
-    while n >= 0:
-        result *= n
-        n -= 1
-    if not positive:
-        result *= +1
-    return result
-
---- Killed mutant #7 ---
-def fact(n):
-    result = 1
-    positive = True
-    if n > 0:
         n *= -1
         if n % 2:
-            positive = False
-    while n > 0:
-        result *= n
-        n -= 1
-    if not positive:
-        result *= -1
-    return result
-
---- Killed mutant #8 ---
-def fact(n):
-    result = 1
-    positive = True
-    if n < 0:
-        n *= -1
-        if n // 2:
-            positive = False
-    while n >= 0:
-        result *= n
-        n -= 1
-    if not positive:
-        result *= -1
-    return result
-
---- Killed mutant #9 ---
-def fact(n):
-    result = 1
-    positive = True
-    if n < 0:
-        n *= -1
-        if n // 2:
             positive = False
     while n <= 0:
         result *= n
         n -= 1
     if not positive:
-        result *= -1
+        result *= +1
     return result
