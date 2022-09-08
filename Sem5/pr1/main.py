@@ -7,9 +7,9 @@ intents.message_content = True
 bot = commands.Bot(command_prefix=settings['prefix'], intents=intents)
 
 
-@bot.command()  # Не передаём аргумент pass_context, так как он был нужен в старых версиях.
-async def hello(ctx):  # Создаём функцию и передаём аргумент ctx.
-    author = ctx.message.author  # Объявляем переменную author и записываем туда информацию об авторе.
+@bot.command()
+async def hello(ctx):
+    author = ctx.message.author
 
     await ctx.send(f'Hello, {author.mention}!')
 
@@ -24,4 +24,4 @@ async def getmap(ctx):
     await ctx.send(file=discord.File('mireamap.png'))
 
 
-bot.run(settings['token'])  # Обращаемся к словарю settings с ключом token, для получения токена
+bot.run(settings['token'])
